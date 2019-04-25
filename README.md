@@ -12,3 +12,6 @@ docker run -p 4200:4200 -v /app/node_modules -v $(pwd):/app docker-frontend-env
 
 docker run -p 4200:4200 -v /app/node_modules -v %cd%:/app docker-frontend-env
 
+## Running with docker-compose
+
+docker-compose up
